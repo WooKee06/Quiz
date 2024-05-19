@@ -13,7 +13,7 @@ export default function testsModal({ name, openModal, HandleCloseModal }) {
 					className='close-modal'
 					onClick={HandleCloseModal}
 				/>
-				<h2>{name} можете выберать ПМ:</h2>
+				<h2>{name} можете выбирать ПМ:</h2>
 				<div className='links'>
 					<Link className='link-btn test-pm' href='/testpm'>
 						<div className='link-btn__title'>
@@ -48,7 +48,7 @@ export default function testsModal({ name, openModal, HandleCloseModal }) {
 							<h2>Мурадханова Д.Б</h2>
 						</div>
 					</Link>
-					<Link className='link-btn pm01' href='/testpm'>
+					<Link className='link-btn pm01' href='/pm03'>
 						<div className='link-btn__title'>
 							<h2>Програмирование на JAVA</h2>
 							<FaRegCheckCircle size={20} />
@@ -59,7 +59,7 @@ export default function testsModal({ name, openModal, HandleCloseModal }) {
 							<h2>Байрамов Н.Р</h2>
 						</div>
 					</Link>
-					<Link className='link-btn pm07' href='/testpm'>
+					<Link className='link-btn pm07' href='/pm07'>
 						<div className='link-btn__title'>
 							<h2>Работа с сервером SQL</h2>
 							<FaRegCheckCircle size={20} />
@@ -68,6 +68,17 @@ export default function testsModal({ name, openModal, HandleCloseModal }) {
 						<div className='link-btn__teacher'>
 							<span>Преподаватель:</span>
 							<h2>Атемов А.Э</h2>
+						</div>
+					</Link>
+					<Link className='link-btn pm04' href='/pm04'>
+						<div className='link-btn__title'>
+							<h2>Установка программного обеспечения</h2>
+							<FaRegCheckCircle size={20} />
+						</div>
+
+						<div className='link-btn__teacher'>
+							<span>Преподаватель:</span>
+							<h2>Агарагимов М.Ю.</h2>
 						</div>
 					</Link>
 				</div>

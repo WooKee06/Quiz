@@ -7,6 +7,7 @@ $link-pm11-bg: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
 $link-pm02-bg: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #fbb03b);
 $link-pm01-bg: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
 $link-pm07-bg: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+$link-pm04-bg: linear-gradient(to right, #009245, #fcee21, #00a8c5, #d9e021);
 
 body {
 	margin: 0;
@@ -448,6 +449,10 @@ body {
 			.pm07 {
 				background-image: $link-pm07-bg;
 				box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+			}
+			.pm04 {
+				background-image: $link-pm04-bg;
+				box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
 			}
 
 			.link-btn {

@@ -14,7 +14,7 @@ export default function Result() {
 			<div className={style.result}>
 				<h2>Ваш результат</h2>
 				<div className={style.answers}>
-					<h3>Правельные ответы:</h3>
+					<h3>Правильные ответы:</h3>
 					{rightAnswer.map((data, index) => (
 						<div className={style.resiltItem} key={index}>
 							<h1 className={style.gameTitle}>{data.title}</h1>
@@ -38,7 +38,7 @@ export default function Result() {
 						</div>
 					))}
 					<br />
-					<h3>Неправельные ответы:</h3>
+					<h3>Неправильные ответы:</h3>
 					{wrongAnswer.map((data, index) => (
 						<div className={style.resiltItem} key={index}>
 							<h1 className={style.gameTitle}>{data.title}</h1>
